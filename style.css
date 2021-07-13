@@ -1,0 +1,190 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #f2f2f2;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.orange {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	margin-top: 50px;
+	background-color: #e38826;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.sedan_car {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.orange h1 {
+	padding-bottom: 35px;
+}
+
+.orange_button {
+	margin-top: 20px;
+	margin-bottom: 35px;
+	color: #f2f2f2;
+	background-color: #e38826;
+}
+
+.blue {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	background-color: #006970;
+}
+
+.suvs_car {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.blue h1 {
+	padding-bottom: 35px;
+}
+
+.blue_button {
+	margin-top: 20px;
+	margin-bottom: 35px;
+	color: #f2f2f2;
+	background-color: #006970;
+}
+
+.green {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	margin-bottom: 50px;
+	background-color: #004241;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.luxury_car {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.green h1 {
+	padding-bottom: 35px;
+}
+
+.green_button {
+	margin-top: 20px;
+	margin-bottom: 35px;
+	color: #f2f2f2;
+	background-color: #004241;
+}
+
+p {
+	font-family: Lexend Deca;
+	font-weight: 400;
+	line-height: 20px;
+	color: #cccccc;
+}
+
+h1 {
+	font-family: Lexend Deca;
+	font-weight: 700;
+	font-size: 25px;
+	color: #f2f2f2;
+	letter-spacing: -1px;
+}
+
+.green_button, .blue_button, .orange_button {
+	width: 55%;
+	height: 50px;
+	border-radius: 100px;
+	border: solid #f2f2f2;
+	border-width: 2px;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.green_button:hover {
+	background-color: white;
+	color: #004241;
+}
+
+.blue_button:hover {
+	background-color: white;
+	color: #006970;
+}
+
+.orange_button:hover {
+	background-color: white;
+	color: #e38826;
+}
+
+.p-pc {
+	display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.wrapper {
+		width: 75%;
+		margin: 0 auto;
+		padding: 220px 0px;
+	}
+	
+	.orange, .blue, .green {
+		width: 307px;
+		display: inline-block;
+		margin: auto;
+		border-radius: 0px 0px 0px 0px;
+		padding-top: 100px;
+		padding-bottom: 25px;
+	}
+	
+	.wrapper-helper {
+		width: 75%;
+		margin: auto;
+	}
+	
+	.orange {
+		float: left;
+		border-radius: 10px 0px 0px 10px;
+	}
+	
+	.green {
+		float: right;
+		border-radius: 0px 10px 10px 0px;
+	}
+	
+	.sedan_car, .suvs_car, .luxury_car  {
+		position: relative;
+		bottom: 90px;
+	}
+	
+	h1 {
+		position: relative;
+		bottom: 90px;
+	}
+	
+	.p-phone {
+		display: none;
+	}
+	
+	.p-pc {
+		display: block;
+		position: relative;
+		bottom: 90px;
+		line-height: 25px;
+	}
+}
